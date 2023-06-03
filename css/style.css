@@ -1,3 +1,134 @@
-a {
-    text-decoration: none;
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --bgc-color: #F5F5F5;
+    --background-color: #FFFFFF;
+    --button-color: #2196F3;
+    --bgc-footer-color: #2F303A;
+    --logo_color:#000000;
+    --bcg-team-color:#F5F4FA;
+    --text-footer-color: rgba(255, 255, 255, 0.6);
+}
+
+/* section header */
+
+.header {
+    background-color: var(--background-color);
+}
+
+.header-logo {
+    color: var(--logo_color);
+}
+
+.header-logo span {
+    color: var(--button-color);
+}
+
+.header-link {
+    color: var(--title-color);
+}
+
+.header-add a {
+    color: var(--text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--button-color)
+}
+/* section cover */
+
+.cover {
+    background-color: var(--bgc-footer-color);
+}
+
+.cover-title {
+    color: var(--background-color);
+}
+
+.cover-btn {
+    background-color: var(--button-color);
+    color: var(--background-color);
+}
+
+/* section advantages */
+
+.advantages {
+    background-color: var(--bcg-color);
+}
+
+.advantages-title {
+    color: var(--title-color);
+}
+
+.advantages-text {
+    color: var(--text-color);
+}
+/* section emphasis */
+
+.emphasis {
+    background-color: var(--bcg-color);
+}
+
+.emphasis-title {
+    color: var(--title-color);
+}
+/* section team */
+
+.team {
+    background-color: var(--bcg-team-color);
+}
+
+.team-titles {
+    color: var(--title-color)
+}
+
+.team-text {
+    color: var(--text-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--bgc-footer-color);
+}
+
+.footer-logo {
+    color: var(--background-color);
+}
+
+.footer-logo span {
+    color: var(--button-color);
+}
+
+.footer-add {
+    color:var(--text-footer-color);
+}
+
+.footer-add:hover,
+.footer-add:focus {
+    color: var(--background-color);
+}
+
+/* section buttons */
+
+.buttons-tup {
+    background-color: var(--bcg-team-color);
+    color:var(--title-color);
+}
+
+.buttons-tup:hover,
+.buttons-tup:focus {
+    background-color: var(--button-color);
+    color:var(--background-color);
+}
+
+/* section portfolio */
+
+.portfolio-titles {
+    color:var(--title-color);
+}
+
+.portfolio-text {
+    color: var(--text-color);
 }
