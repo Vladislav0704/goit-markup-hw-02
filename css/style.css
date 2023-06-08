@@ -42,10 +42,11 @@
     color: var(--text-color);
 }
 
-.header-link:hover,
-.header-link:focus {
-    color: var(--button-color)
+.link:hover,
+.link:focus {
+    color: var(--button-color);
 }
+
 /* section cover */
 
 .cover {
